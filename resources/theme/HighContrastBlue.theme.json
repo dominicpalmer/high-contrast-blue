@@ -1,5 +1,8 @@
 {
+  "id": "HighContrastBlue",
   "name": "High Contrast Blue",
+  "version": "1.0.0",
+  "description": "Light theme with blue accents.",
   "dark": false,
   "author": "Dominic Palmer",
   "editorScheme": "/theme/VisualAssistLight.xml",
@@ -7,7 +10,7 @@
   "colors": {
     "mainBackground": "#f5f5f5",
 
-    "tabWellMainBackground": "#ccd9e2",
+    "tabWellMainBackground": "#bfd1e0",
 
     "toolWindowMainBackgroundActive": "#7ba7cb",
     "toolWindowMainBackgroundInactive": "#789bc4",
@@ -26,7 +29,8 @@
 
     "dragAndDropBackground": "#e8e8e8",
 
-    "treeSelectionBackground": "#c4d5ff"
+    "selectionBackground": "#347cbd",
+    "selectionForeground": "#ffffff"
   },
 
   "ui": {
@@ -35,8 +39,8 @@
       "foreground": "#000000",
       "inactiveBackground": "#e5e7e9",
       "disabledBackground": "#e5e7e9",
-      "selectionBackground": "#3290b5",
-      "selectionForeground": "#ffffff",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "selectionForeground",
       "selectionInactiveBackground": "#e5e7e9",
       "acceleratorForeground": "#000000",
       "acceleratorSelectionForeground": "#000000",
@@ -88,7 +92,7 @@
     "CompletionPopup": {
       "matchForeground": "#000000",
       "foreground": "#404040",
-      "selectionBackground": "#3290b522",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "#bdbfc0"
     },
 
@@ -304,7 +308,8 @@
       "lightSelectionForeground": "#000000",
       "lightSelectionInactiveForeground": "#000000",
       "lightSelectionBackground": "#e5e7e9",
-      "lightSelectionInactiveBackground": "#949494"
+      "lightSelectionInactiveBackground": "#949494",
+      "gridColor": "#dbdbdb"
     },
 
     "ToggleButton": {
@@ -342,8 +347,8 @@
     },
 
     "Tree": {
-      "selectionBackground": "treeSelectionBackground",
-      "selectionForeground": "#000000"
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "selectionForeground"
     },
 
     "ValidationTooltip": {
