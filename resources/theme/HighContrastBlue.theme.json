@@ -1,8 +1,6 @@
 {
-  "id": "HighContrastBlue",
   "name": "High Contrast Blue",
   "version": "1.0.0",
-  "description": "Light theme with blue accents.",
   "dark": false,
   "author": "Dominic Palmer",
   "editorScheme": "/theme/VisualAssistLight.xml",
